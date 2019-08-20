@@ -102,6 +102,10 @@ button {
 
 
 /**/
+.section .advert{
+    width: 100% !important;
+}
+
 .advert {
     display: flex;
     flex-direction: row;
@@ -140,7 +144,7 @@ button {
 
 /**************** main********************/
 .container{
-    width: 100%;
+/*    width: 100%;*/
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -174,12 +178,16 @@ button {
 
 /**************** main-contents *************/
 .main-contents {
-    width: 45%;
+/*    width: 45%;*/
     margin: 50px auto 0px;
     display: flex;
     flex-direction: column;   
 }
 
+.main-contents p {
+    width: 45%;
+    margin: 50px auto 0px;
+}
 .content-text p{
     font-family: 'Merriweather', serif;
     font-size: 1.25rem;
@@ -187,48 +195,31 @@ button {
     padding: 10px;
     text-align: left;
 }
-
-.main-contents .links *{
-    float: right;
-    flex-direction: row;
-    margin: 10px
+.main-contents .head-nav {
+    display: inline-block;
 }
+
 
 /*
-.intro {
-    width: 80%;
-    margin: 0 auto
-}
-
-.intro img{
-    width: 60%;
-    margin: 20px;
+.main-contents .links *{
+    margin: 5px;
+    display: flex;
 }
 */
+
 /*
-
-.intro {
-    width: 100%;
-    margin: 0 auto;
+.fab,
+.fa-envelope,
+.fas{
+    padding: 3px;
+    border: 1px solid ; 
+    border-radius: 50%;
+    background-color: gainsboro
 }
 
-
-
-.intro p{
-    margin: ;
-    width: px;
+.fab:hover,
+.fa-envelope:hover,
+.fas:hover{
+    background-color: #fff;
 }
-.intro p .caption{
-    color: #333;
-}
-
-********************content-text********************
-.main-contents {
-    width: 600px;
-    margin: 0 auto;
-}
-
-.content-text p{
-    font-family: 'Merriweather', serif;
-    font-size: 30px;
-}*/
+*/
