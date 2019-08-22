@@ -150,51 +150,63 @@ body {
 }
 
 header {
-    position: fixed;
+    /* position: fixed;
+    background-color: #fff; */
     background-color: #fff;
+	padding-top: 10px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 99999;
 }
 
 /**************************Nav bar***********************/
-nav {
+ nav {
+    border-bottom: 1px solid #e2e2e2;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-}
+    height: 10%;
+	justify-content: space-between;
+	width: 100%;
+} 
 
-/* leftnav */
-.left-nav {
-
-    display: flex;
-    flex-direction: row;
-}
-
-.left-nav .fas,
-.left-nav a {
-    padding: 10px;
-}
-
-.left-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-
-
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 25%;
 }
 
 .logo img {
-    margin-left: 300px;
-    margin-right: 340px;
-    height: 40px;
+	height: 30px;
+	width: 200px;
 }
 
+img:hover {
+    background-color: gray;
+}
+
+.space-cosmos a {
+	color: black;
+	font-size: 14.25px;
+	font-weight: 700;
+	text-decoration-line: none;
+}
+
+.right-bars .search-btn {
+	margin-right: 10px;
+}
+
+.btn {
+    align-items: flex-end;
+}
 
 button {
-    padding: 10px;
-    margin: 3px 6px 3px 6px;
     background-color: #6288a5;
     border: 1px solid #326891;
     color: #fff;
-}
+    padding: 5px;
+} 
 
 
 /**/
