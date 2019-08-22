@@ -149,6 +149,10 @@ body {
     background-color: white;
 }
 
+header {
+    position: fixed;
+    background-color: #fff;
+}
 
 /**************************Nav bar***********************/
 nav {
