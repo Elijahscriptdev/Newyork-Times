@@ -222,9 +222,6 @@ button {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .advert .visit-site {
@@ -259,6 +256,7 @@ button {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .intro .heading {
@@ -289,6 +287,48 @@ button {
 }
 
 /**************** main-contents *************/
+.container .aside {
+    position: absolute;
+    right: 20px;
+    text-align: left;
+}
+.aside .aside-h{
+    font-size: 13px;
+    text-align: left;
+}
+.aside .aside-p{
+    margin: px;
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.aside {
+	align-self: center;
+	margin-left: 5%;
+	width:15%;
+}
+.aside p {
+	color: #333333;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 13px;
+	line-height: 20px;
+}
+.aside button {
+	background-color: #6288a5;
+	border-radius: 3px;
+	border: 1px solid #326891;
+	cursor: pointer;
+    color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	height:45px;
+    text-align: center;
+	width: 200px;
+}
+
+
 .main-contents {
     margin: 50px auto 0px;
     display: flex;
