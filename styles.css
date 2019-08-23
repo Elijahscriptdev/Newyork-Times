@@ -115,6 +115,9 @@ ol,
 ul {
     list-style: none;
 }
+h5{
+    font-weight: bolder;
+}
 
 blockquote,
 q {
@@ -174,7 +177,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	width: 25%;
+	width: 20%;
 }
 
 .logo img {
@@ -307,7 +310,7 @@ button {
 .aside {
 	align-self: center;
 	margin-left: 5%;
-	width:15%;
+	width:20%;
 }
 .aside p {
 	color: #333333;
@@ -345,6 +348,26 @@ a {
     margin: 0% 28%;
     height: 350px;
 }
+.picks{
+    display: flex;
+    flex-direction: row;   
+}
+.picks figure{
+    width: 100%;
+	padding:0;
+}
+.picks figure img{
+    width: 90px;
+    margin-left: 50px;
+}
+.picks a{
+    color: #333333;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
 
 .main-contents p,
 .main-contents h5 {
@@ -366,8 +389,8 @@ a {
 
 .inflation-contents {
     font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
-    width: 72%;
-    margin: 0% 17%;
+    width: 80%;
+    margin: 0% 10%;
 
 }
 
@@ -452,6 +475,16 @@ h4 {
 
 .links ul li:hover {
     background-color: white;
+}
+
+.more-in-space{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+    grid-template-rows: 50px 300px 300px 50px 250px;
+    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    margin-top: 70px;
+    padding: 0px 20px 0px 20px;
 }
 
 footer {
