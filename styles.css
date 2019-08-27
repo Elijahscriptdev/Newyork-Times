@@ -477,6 +477,63 @@ h4 {
     background-color: white;
 }
 
+.more-in-space .grid-container{
+    width: 70%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .grid-container > div img{
+    border: 2px solid;
+  }
+
+  .grid-container img{
+    cursor: pointer;
+	height:175px;
+	width:100%;
+  }
+
+  .more-in-space h4,
+  .grid-container p,
+  .grid-container figcaption {
+      margin-left: 90px;
+      width: 100%;
+  }
+
+  .grid-container p{
+      font-size: 
+  }
+
+  .more-in-space h4{
+      padding: 0 10px;
+      border-top: 1px solid #333;
+      width: 61.5%;
+      margin-top: 50px;
+      font-size: 30px;
+  }
+  /* .grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 20px;
+  }
+  
+  .grid-item {
+  
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  } */
+
+/*
 .more-in-space{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 3fr;
@@ -581,6 +638,7 @@ footer {
 h6 {
     font-weight: bold;
 }
+*/
 
 footer img {
     margin-left: -1%;
