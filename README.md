@@ -14,7 +14,7 @@ Built with HTML and CSS
     **```https://github.com/Elijahscriptdev/Newyork-Times.git```**
 
 ### USING THE PROJECT
-Click on this link to go to the github pages ---
+Click on this link to go to the github pages --- https://raw.githack.com/Elijahscriptdev/Newyork-Times/feauture-nyt/index.html
 
 ### AUTHORS
 Ampaire Phemia and Elijah Obominuru
