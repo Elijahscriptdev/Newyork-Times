@@ -168,21 +168,24 @@ header {
 nav {
   border-bottom: 1px solid #e2e2e2;
   box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
+.menu * {
+  display: inline;
+  margin-right: 10px;
+}
+
 .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 20%;
+  float: left;
+  justify-content: space-between;
+  margin-left: 10px;
 }
 
 .logo img {
   height: 27px;
   width: 200px;
+  margin-left: 15%;
 }
 
 .space-cosmos a {
@@ -197,7 +200,8 @@ nav {
 }
 
 .btn {
-  align-items: flex-end;
+  float: right;
+  margin-top: -30px ;
 }
 
 button {
