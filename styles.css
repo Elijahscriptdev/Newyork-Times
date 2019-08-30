@@ -347,7 +347,7 @@ a {
 }
 
 .picks {
-  margin-left: 1%;
+  
   display: flex;
   flex-direction: row;
 }
@@ -359,7 +359,6 @@ a {
 
 .picks figure img {
   width: 50%;
-  margin-left: 20px;
 }
 
 .picks a {
